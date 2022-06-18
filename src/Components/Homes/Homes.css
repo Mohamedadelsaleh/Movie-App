@@ -39,6 +39,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
 }
 
 .coverImage::after{
@@ -108,7 +109,6 @@
     width: 90px;
     height: 90px;
     margin-right: 20px;
-    transition: 0.5s;
 }
 
 .palyButton button:hover .change {
@@ -130,5 +130,5 @@
 }
 
 .margin{
-    margin-top: 50px;
+    margin-top: 45%;
 }

@@ -58,6 +58,7 @@ header button {
         z-index: 999;
     }
     header ul li {
+        align-items: left;
         margin-top: 30px;
         padding: 0 50px;
     }
