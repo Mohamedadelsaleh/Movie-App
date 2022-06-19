@@ -12,8 +12,8 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/singlePage/:id" component={SinglePage } exact />
+        <Route exact path="/Movie-App/" component={Home} />
+        <Route path="/Movie-App/singlePage/:id" component={SinglePage } exact />
       </Switch>
       <Footer />
     </Router>
