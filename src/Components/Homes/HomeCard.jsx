@@ -47,8 +47,8 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
                 <Link to={`/singlepage/${id}`}>
                 <button>
                     <div className='img'>
-                    <img src='./images/icons/play-button.png' alt='' />
-                    <img src='./images/icons/play (4).png' className='change' alt='' />
+                    <img src='https://firebasestorage.googleapis.com/v0/b/movie-app-889ee.appspot.com/o/icons%2Fplay-button.png?alt=media&token=2cb346b9-0569-4a81-9b9d-c753adf1a04c' alt='' />
+                    <img src='https://firebasestorage.googleapis.com/v0/b/movie-app-889ee.appspot.com/o/icons%2Fplay%20(4).png?alt=media&token=68f2f4e2-157b-47ff-9f93-cdf649eed68b' className='change' alt='' />
                     </div>
                     WATCH TRAILER
                 </button>
