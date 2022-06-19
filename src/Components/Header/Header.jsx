@@ -17,22 +17,22 @@ const Header = () => {
                         </div>
                         <ul className={mobile ? 'navMenu-list' : 'flexSB'} onClick={() =>setMobile(false)}>
                             <li>
-                                <a href='https://mohamedadelsaleh.github.io/Movie-App/'>Home</a>
+                                <a href='/Movie-App/'>Home</a>
                             </li>
                             <li>
-                                <a href='https://mohamedadelsaleh.github.io/Movie-App/series'>Series</a>
+                                <a href='/Movie-App/series'>Series</a>
                             </li>
                             <li>
-                                <a href='https://mohamedadelsaleh.github.io/Movie-App/movies'>Movies</a>
+                                <a href='/Movie-App/movies'>Movies</a>
                             </li>
                             <li>
-                                <a href='https://mohamedadelsaleh.github.io/Movie-App/pages'>Pages</a>
+                                <a href='/Movie-App/pages'>Pages</a>
                             </li>
                             <li>
-                                <a href='https://mohamedadelsaleh.github.io/Movie-App/pricing'>Pricing</a>
+                                <a href='/Movie-App/pricing'>Pricing</a>
                             </li>
                             <li>
-                                <a href='https://mohamedadelsaleh.github.io/Movie-App/contact'>Contact</a>
+                                <a href='/Movie-App/contact'>Contact</a>
                             </li>
                         </ul>
                         <button className="toggle" onClick={() =>setMobile(!mobile)}>
