@@ -18,7 +18,7 @@ const Header = () => {
                         </div>
                         <ul className={mobile ? 'navMenu-list' : 'flexSB'} onClick={() =>setMobile(false)}>
                             <li>
-                                <Link to={`/`}>Home</Link>
+                                <Link to={`/Movie-App/`}>Home</Link>
                             </li>
                             <li>
                                 <Link to={`/Movie-App/series/`}>Series</Link>
