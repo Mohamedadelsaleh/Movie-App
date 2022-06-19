@@ -15,12 +15,12 @@ const Header = () => {
                             <img src={image} alt="" />
                         </div>
                         <ul className={mobile ? 'navMenu-list' : 'flexSB'} onClick={() =>setMobile(false)}>
-                            <Link to="https://mohamedadelsaleh.github.io/Movie-App/">Home</Link>
-                            <Link to="https://mohamedadelsaleh.github.io/Movie-App/series">Series</Link>
-                            <Link to="https://mohamedadelsaleh.github.io/Movie-App/movies">Movies</Link>
-                            <Link to="https://mohamedadelsaleh.github.io/Movie-App/pages">Pages</Link>
-                            <Link to="https://mohamedadelsaleh.github.io/Movie-App/pricing">Pricing</Link>
-                            <Link to="https://mohamedadelsaleh.github.io/Movie-App/contact">Contact</Link>
+                            <Link to="/Movie-App/">Home</Link>
+                            <Link to="/Movie-App/series">Series</Link>
+                            <Link to="/Movie-App/movies">Movies</Link>
+                            <Link to="/Movie-App/pages">Pages</Link>
+                            <Link to="/Movie-App/pricing">Pricing</Link>
+                            <Link to="/Movie-App/contact">Contact</Link>
                         </ul>
                         <button className="toggle" onClick={() =>setMobile(!mobile)}>
                             {mobile ? <i className="fa fa-times"></i> : <i className="fa fa-bars"></i>}
