@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/singlePage/:id" component={SinglePage } />
+        <Route path="/singlePage/:id" component={SinglePage } exact />
       </Switch>
       <Footer />
     </Router>
