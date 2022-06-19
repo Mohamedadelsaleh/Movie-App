@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import './Header.css'
 import image from './images/OneWeb_Logo.png'
 
@@ -17,22 +18,22 @@ const Header = () => {
                         </div>
                         <ul className={mobile ? 'navMenu-list' : 'flexSB'} onClick={() =>setMobile(false)}>
                             <li>
-                                <a href='/'>Home</a>
+                                <Link to={`/`}>Home</Link>
                             </li>
                             <li>
-                                <a href='/series'>Series</a>
+                                <Link to={`/Movie-App/series/`}>Series</Link>
                             </li>
                             <li>
-                                <a href='/movies'>Movies</a>
+                                <Link to={`/Movie-App/movies`}>Movies</Link>
                             </li>
                             <li>
-                                <a href='/pages'>Pages</a>
+                                <Link to={`/Movie-App/pages`}>Pages</Link>
                             </li>
                             <li>
-                                <a href='/pricing'>Pricing</a>
+                                <Link to={`/Movie-App/pricing`}>Pricing</Link>
                             </li>
                             <li>
-                                <a href='/contact'>Contact</a>
+                                <Link to={`/Movie-App/contact`}>Contact</Link>
                             </li>
                         </ul>
                         <button className="toggle" onClick={() =>setMobile(!mobile)}>
