@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import './Header.css'
 import image from './images/OneWeb_Logo.png'
+
+
 const Header = () => {
 
     const [mobile, setMobile] = useState(false);
@@ -15,12 +16,24 @@ const Header = () => {
                             <img src={image} alt="" />
                         </div>
                         <ul className={mobile ? 'navMenu-list' : 'flexSB'} onClick={() =>setMobile(false)}>
-                            <Link to="/Movie-App/">Home</Link>
-                            <Link to="/Movie-App/series">Series</Link>
-                            <Link to="/Movie-App/movies">Movies</Link>
-                            <Link to="/Movie-App/pages">Pages</Link>
-                            <Link to="/Movie-App/pricing">Pricing</Link>
-                            <Link to="/Movie-App/contact">Contact</Link>
+                            <li>
+                                <a href='https://mohamedadelsaleh.github.io/Movie-App/'>Home</a>
+                            </li>
+                            <li>
+                                <a href='https://mohamedadelsaleh.github.io/Movie-App/series'>Series</a>
+                            </li>
+                            <li>
+                                <a href='https://mohamedadelsaleh.github.io/Movie-App/movies'>Movies</a>
+                            </li>
+                            <li>
+                                <a href='https://mohamedadelsaleh.github.io/Movie-App/pages'>Pages</a>
+                            </li>
+                            <li>
+                                <a href='https://mohamedadelsaleh.github.io/Movie-App/pricing'>Pricing</a>
+                            </li>
+                            <li>
+                                <a href='https://mohamedadelsaleh.github.io/Movie-App/contact'>Contact</a>
+                            </li>
                         </ul>
                         <button className="toggle" onClick={() =>setMobile(!mobile)}>
                             {mobile ? <i className="fa fa-times"></i> : <i className="fa fa-bars"></i>}
